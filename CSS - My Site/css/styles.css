@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    margin-block-start: 0;
+}
+
+div {
+    position: relative;
+}
+
+.top-container {
+    background-color: #e4f9f5;
+    padding-top: 100px;
+}
+
+.middle-container {
+    background-color: blanchedalmond;
+    height: 200px;
+    width: 200px;
+}
+
+.bottom-container {
+    background-color: lightpink;
+    height: 200px;
+    width: 200px;
+}
+
+.top-image {
+    position: absolute;
+    top: 8%;
+    left: 70%;
+
+}
+
+.bottom-image {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
