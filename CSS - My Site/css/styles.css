@@ -1,11 +1,27 @@
 body {
     margin: 0;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Merriweather', serif;
 }
 
 h1 {
-    margin-block-start: 0;
+    color: #66BFBF;
+    font-size: 5.265rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
 }
 
 div {
@@ -18,15 +34,11 @@ div {
 }
 
 .middle-container {
-    background-color: blanchedalmond;
-    height: 200px;
-    width: 200px;
+    
 }
 
 .bottom-container {
-    background-color: lightpink;
-    height: 200px;
-    width: 200px;
+    
 }
 
 .top-image {
@@ -38,6 +50,33 @@ div {
 
 .bottom-image {
     position: absolute;
-    top: 40%;
-    left: 30%;
+    top: 50%;
+    left: 14%;
+}
+
+.footer-link {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.skill-row {
+    display: block;
+    position: relative;
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row p {
+    margin-left: 2rem;
+}
+
+.skill-pic {
+    width: 25%;
+    float: left;
+}
+
+.profile-pic {
+    width: 27%;
 }
